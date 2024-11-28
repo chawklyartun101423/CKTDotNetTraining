@@ -21,3 +21,4 @@ namespace CKTDotNetTraining
         public DbSet<BlogDataModel> Blogs{ get; set; }
     }
 }
+
