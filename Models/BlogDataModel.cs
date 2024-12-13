@@ -28,7 +28,7 @@ namespace CKTDotNetTraining.Models
         }
     }
 
-    [Table("Tble_Blog")]
+    [Table("Tbl_Blog")]
     public class BlogDataModel
     {
         [Key]
@@ -55,5 +55,8 @@ namespace CKTDotNetTraining.Models
         {
             get; set;
         }
+        [Column("DeleteFlag")]
+        public bool DeleteFlag {  get; set; }
+
     }
 }

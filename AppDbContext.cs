@@ -10,15 +10,34 @@ namespace CKTDotNetTraining
 {
     public class AppDbContext : DbContext
     {
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //	if (!optionsBuilder.IsConfigured)
+        //	{
+        //		string connectionString = "Data Source=.;Initial Catalog=CKTDotNetTraining;User ID=sa;Password=sa;TrustServerCertificate=True";
+        //		optionsBuilder.UseSqlServer(connectionString);
+        //	}
+        //	base.OnConfiguring(optionsBuilder);
+        //}
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    if (!optionsBuilder.IsConfigured)
+        //    {
+        //        String connectionString= "Data Source=.;Initial Catalog=CKTDotNetTraining;User ID =sa;Password=sa;TrustServerCertificate=True";
+        //        optionsBuilder.UseSqlServer(connectionString);
+        //    }
+        //}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-                String connectionString= "Data Source=.;Initial Catalog=CKTDotNetTraining;User ID =sa;Password=sa;TrustServerCertificate=True";
+                string connectionString = "Data Source=.;Initial Catalog=CKTDotNetTraining;User ID=sa;Password=sa;TrustServerCertificate=True";
                 optionsBuilder.UseSqlServer(connectionString);
             }
         }
-        public DbSet<BlogDataModel> Blogs{ get; set; }
+
+        public DbSet<BlogDataModel> Blogs{ get;set; }
+
     }
 }
 

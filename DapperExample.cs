@@ -69,7 +69,6 @@ namespace CKTDotNetTraining
                 Console.WriteLine(result == 1 ? "Saving Success" : "Saving Failed");
             }
         }
-
         public void Edit(int id)
         {
             //String query = "select * from tble_blog where BlogId=@BlogId;";
@@ -98,7 +97,6 @@ namespace CKTDotNetTraining
             }
 
         }
-
         public void Update(int id, string title, string author, string content)
         {
             String query = $@"UPDATE [dbo].[Tble_Blog]

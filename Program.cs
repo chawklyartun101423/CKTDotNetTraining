@@ -34,24 +34,26 @@ using CKTDotNetTraining;
 
 
 
-AdoExample adoExample = new AdoExample();
+//AdoExample adoExample = new AdoExample();
 //adoExample.Create();
 //adoExample.Read();
 //adoExample.Edit();
 //adoExample.Update();
 //adoExample.Delete();
 
-DapperExample DapperExample = new DapperExample();
+//DapperExample DapperExample = new DapperExample();
 //DapperExample.Create("updatedap","updatedapper","updatedap");
 //DapperExample.Edit(10);
 //DapperExample.Update(4, "update4Dapper", "4UpdateDapper", "4UpdateDapper");
 //DapperExample.Delete(7);
 
 EFCoreExample eFCoreExample = new EFCoreExample();
-
 //eFCoreExample.Read();
-eFCoreExample.Create("eftitle","efauthor","efcontent");
-
+//eFCoreExample.Create("title","author","content");
+//eFCoreExample.Create("eftitle","efauthor","efcontent");
+//eFCoreExample.Edit(1);
+//eFCoreExample.Update(1, "updatedTitle", "updatedauthor", "updatedcontent");
+//eFCoreExample.Delete(1);
 Console.ReadKey();
 
 
