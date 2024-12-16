@@ -24,6 +24,7 @@ update tbl_blog
 5-mg mg 5
 
 //weakpoint cannot get real-time data
-
 efcore database first(manual,auto) / code first
 Creating Table in C# and run commandline without creating table in database side.
+
+dotnet ef dbcontext scaffold "Server=.;Database=CKTDotNetTraining;User Id=sa;Password=sa;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c AppDbContext -f
