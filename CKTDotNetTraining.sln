@@ -5,11 +5,16 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CKTDotNetTraining", "CKTDotNetTraining.csproj", "{F9D145B0-27AE-4655-8165-E3C540C6B9D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datatabaselib", "..\Datatabaselib\Datatabaselib.csproj", "{9B4ACC98-70AC-4D03-BCEA-744D405B9E28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datatabaselib", "..\Datatabaselib\Datatabaselib.csproj", "{9B4ACC98-70AC-4D03-BCEA-744D405B9E28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\ConsoleApp1\ConsoleApp1.csproj", "{EE59B644-B0F1-4437-B68B-BC7366F9E77B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "..\ConsoleApp1\ConsoleApp1.csproj", "{EE59B644-B0F1-4437-B68B-BC7366F9E77B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestfulAPI", "..\RestfulAPI\RestfulAPI.csproj", "{B7800BB9-0FF7-46D0-90DE-BCB4B8A3F2F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestfulAPI", "..\RestfulAPI\RestfulAPI.csproj", "{B7800BB9-0FF7-46D0-90DE-BCB4B8A3F2F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{456E65C3-084F-4DDE-A8BD-290174167B2D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -28,3 +28,42 @@ efcore database first(manual,auto) / code first
 Creating Table in C# and run commandline without creating table in database side.
 
 dotnet ef dbcontext scaffold "Server=.;Database=CKTDotNetTraining;User Id=sa;Password=sa;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c AppDbContext -f
+
+API
+
+HttpMethod
+HttpStatusCode
+Resquest/Response
+
+ADO.NET 
+Dapper
+EFCore
+Console App
+Rest API (ASP.Net Core Web API)
+-PostMan
+-Http Method
+-Http Status Code
+-Swagger
+_ORM
+_Data Model
+-Database first
+-ASNoTracking
+-DTO (Data Transfer Object)
+-Nuget Package
+-Class Library
+-AppDbContext
+-C# basic
+-SQL Basic
+-Visual Studio 2022 Installation
+Microsoft SQL Server 2022
+_SSMS (SQL Server Management System)
+-Delete Flag
+
+---------------------------------------------------
+Backend API
+
+data model(data access,database) 10 column
+view model (frontend return data) 2 columns
+
+
+

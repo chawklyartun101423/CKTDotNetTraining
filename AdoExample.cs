@@ -12,7 +12,6 @@ namespace CKTDotNetTraining
     public class AdoExample   //
     {
         private readonly string _connectionString = "Data Source=.;Initial Catalog=CKTDotNetTraining;User ID=sa;Password=sa;";
-
         public void Read()
         {
 
